@@ -1,5 +1,5 @@
 //
-//  secViewController.swift
+//  thirdViewController.swift
 //  TestTestTest
 //
 //  Created by Israa on 10/05/2024.
@@ -7,14 +7,10 @@
 
 import UIKit
 
-class secViewController: UIViewController {
-    @IBOutlet weak var textLabel: UILabel!
-    
-    @IBOutlet weak var secLabel: UILabel!
+class thirdViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        textLabel.text = "How Are You?"
-        secLabel.text = "Fine Thnx :)"
 
         // Do any additional setup after loading the view.
     }

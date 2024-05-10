@@ -8,9 +8,11 @@
 import UIKit
 
 class secViewController: UIViewController {
-
+    @IBOutlet weak var textLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        textLabel.text = "How Are You?"
 
         // Do any additional setup after loading the view.
     }
